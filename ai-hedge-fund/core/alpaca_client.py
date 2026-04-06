@@ -22,9 +22,9 @@ class AlpacaClient:
 
     def __init__(self):
         self.api = tradeapi.REST(
-            key_id=ALPACA_API_KEY,
-            secret_key=ALPACA_SECRET_KEY,
-            base_url=ALPACA_BASE_URL,
+            key_id= "PKEHSJB66ECAYMMFOFAQNRCVYO",
+            secret_key= "5Y6kdvzEcYwgYpAuWxSDEJdo8uMkEoB2W5jycdzMQmVC",
+            base_url= "https://paper-api.alpaca.markets/v2",
             api_version="v2",
         )
         self._verify_connection()
